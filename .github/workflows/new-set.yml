@@ -13,6 +13,9 @@ on:
         description: "Fandom wiki URL"
         required: true
 
+permissions:
+  contents: write
+
 jobs:
   scrape:
     runs-on: ubuntu-latest
@@ -56,7 +59,7 @@ jobs:
       - name: Send CSVs to Telegram
         env:
           TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          CHAT_ID: ${{secrets.TELEGRAM_CHAT_ID}}
+          CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: |
           for f in data/cards_final.csv data/cards_unmatched.csv data/shopify_products.csv; do
             [ -s "$f" ] && curl -s -F chat_id="$CHAT_ID" \
@@ -66,9 +69,12 @@ jobs:
           done
 
       - name: Commit updated data
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git
           git add \
             data/boosters.json \
             data/cards_vg_jp.csv \

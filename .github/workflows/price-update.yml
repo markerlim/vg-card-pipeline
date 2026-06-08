@@ -7,7 +7,10 @@ on:
         description: "Optional: specific set code to reprice (leave empty for all)"
         required: false
   schedule:
-    - cron: "0 6 * * 1"      # Every Monday 6am UTC
+    - cron: "0 6 * * 1"
+
+permissions:
+  contents: write
 
 jobs:
   reprice:
@@ -45,9 +48,12 @@ jobs:
           done
 
       - name: Commit updated data
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git
           git add \
             data/cards_yyt_price.csv \
             data/cards_final.csv \

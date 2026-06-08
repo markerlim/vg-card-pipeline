@@ -21,11 +21,25 @@ SET_CODES = [
 
 session = requests.Session()
 session.headers.update({
-    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
-    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-    "Accept-Language": "ja,en;q=0.5",
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+    "Accept-Language": "ja,en;q=0.9",
+    "Accept-Encoding": "gzip, deflate, br",
     "Referer": "https://yuyu-tei.jp/",
+    "Sec-Fetch-Dest": "document",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-Site": "same-origin",
+    "Sec-Fetch-User": "?1",
+    "Upgrade-Insecure-Requests": "1",
+    "Connection": "keep-alive",
+    "Cache-Control": "max-age=0",
 })
+
+# Prime session with homepage to get cookies
+try:
+    session.get("https://yuyu-tei.jp/", timeout=15)
+except requests.RequestException:
+    pass
 
 
 def parse_price(text: str) -> str:
@@ -35,8 +49,17 @@ def parse_price(text: str) -> str:
 
 def scrape_set(set_code: str) -> list[dict]:
     url = f"{BASE}/sell/vg/s/search?vers[]={set_code}"
-    resp = session.get(url, timeout=15)
-    resp.raise_for_status()
+
+    for attempt in range(3):
+        try:
+            resp = session.get(url, timeout=30)
+            resp.raise_for_status()
+            break
+        except requests.RequestException:
+            if attempt == 2:
+                raise
+            time.sleep(2 ** attempt)
+
     soup = BeautifulSoup(resp.text, "html.parser")
 
     cards = []
