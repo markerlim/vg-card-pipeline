@@ -62,10 +62,16 @@ jobs:
           CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: |
           for f in data/cards_final.csv data/cards_unmatched.csv data/shopify_products.csv; do
-            [ -s "$f" ] && curl -s -F chat_id="$CHAT_ID" \
-              -F document=@"$f" \
-              -F caption="$(basename $f) — $(wc -l < $f) lines" \
-              "https://api.telegram.org/bot${TOKEN}/sendDocument" || true
+            if [ -s "$f" ]; then
+              echo "--- Sending $f ---"
+              curl -s -X POST \
+                -F chat_id="$CHAT_ID" \
+                -F document=@"$f" \
+                -F caption="$(basename $f) — $(wc -l < $f) lines" \
+                "https://api.telegram.org/bot${TOKEN}/sendDocument" || echo "FAILED: $?"
+            else
+              echo "--- Skipping $f (empty or missing) ---"
+            fi
           done
 
       - name: Commit updated data
