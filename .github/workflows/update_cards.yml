@@ -1,0 +1,62 @@
+name: Update VG Card Data
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "boosters.json"       # manual trigger: delete an entry to force re-scrape
+      - "JP_NAME_CORRECTIONS" # trigger on correction updates (via main.py edits)
+  workflow_dispatch:          # manual trigger from GitHub UI
+  schedule:
+    - cron: "0 2 * * 5"      # every Friday 2am UTC (JP releases are Fridays)
+
+jobs:
+  update-cards:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install requests beautifulsoup4
+
+      - name: Run pipeline
+        run: python3 main.py
+
+      - name: Run Shopify export
+        run: python3 functions/shopify_export.py
+
+      - name: Send CSVs to Telegram
+        env:
+          TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          CHAT_ID: "-1003827231189"
+        run: |
+          for f in data/cards_final.csv data/cards_unmatched.csv data/shopify_products.csv; do
+            [ -s "$f" ] && curl -s -F chat_id="$CHAT_ID" \
+              -F document=@"$f" \
+              -F caption="$(basename $f) — $(wc -l < $f) lines" \
+              "https://api.telegram.org/bot${TOKEN}/sendDocument" || true
+          done
+
+      - name: Commit updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add \
+            data/boosters.json \
+            data/cards_vg_jp.csv \
+            data/cards_vg_wiki.csv \
+            data/cards_mapped.csv \
+            data/cards_yyt_price.csv \
+            data/cards_final.csv \
+            data/cards_unmatched.csv \
+            data/shopify_products.csv
+          git diff --staged --quiet && echo "No changes to commit" || \
+            git commit -m "chore: update card data [skip ci]" && git push

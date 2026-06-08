@@ -1,0 +1,83 @@
+name: New Set - Scrape Cards
+
+on:
+  workflow_dispatch:
+    inputs:
+      set_code:
+        description: "Wiki set code (e.g. VGE-DZ-SS16 or VG-DZ-BT01)"
+        required: true
+      set_name:
+        description: "Set name (e.g. The Legendary Vanguards)"
+        required: true
+      set_url:
+        description: "Fandom wiki URL"
+        required: true
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install requests beautifulsoup4
+
+      - name: Add set to wiki_sets.json
+        run: |
+          python3 -c "
+          import json
+          with open('data/wiki_sets.json') as f:
+              ws = json.load(f)
+          code = '${{ inputs.set_code }}'
+          ws[code] = {
+              'set_name': '${{ inputs.set_name }}',
+              'set_url': '${{ inputs.set_url }}',
+              'scraped': False
+          }
+          with open('data/wiki_sets.json', 'w') as f:
+              json.dump(ws, f, ensure_ascii=False, indent=2)
+          print(f'Added {code} to wiki_sets.json')
+          "
+
+      - name: Run pipeline
+        run: python3 main.py --set ${{ inputs.set_code }}
+
+      - name: Run Shopify export
+        run: python3 functions/shopify_export.py
+
+      - name: Send CSVs to Telegram
+        env:
+          TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          CHAT_ID: "-1003827231189"
+        run: |
+          for f in data/cards_final.csv data/cards_unmatched.csv data/shopify_products.csv; do
+            [ -s "$f" ] && curl -s -F chat_id="$CHAT_ID" \
+              -F document=@"$f" \
+              -F caption="$(basename $f) — $(wc -l < $f) lines" \
+              "https://api.telegram.org/bot${TOKEN}/sendDocument" || true
+          done
+
+      - name: Commit updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add \
+            data/boosters.json \
+            data/cards_vg_jp.csv \
+            data/cards_vg_wiki.csv \
+            data/cards_mapped.csv \
+            data/cards_yyt_price.csv \
+            data/cards_final.csv \
+            data/cards_unmatched.csv \
+            data/shopify_products.csv \
+            data/wiki_sets.json
+          git diff --staged --quiet && echo "No changes to commit" || \
+            git commit -m "chore: add set ${{ inputs.set_code }} [skip ci]" && git push

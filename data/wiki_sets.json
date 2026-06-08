@@ -1,0 +1,157 @@
+{
+  "VG-DZ-BT01": {
+    "set_name": "Fated Clash",
+    "set_url": "https://cardfight.fandom.com/wiki/DZ_Booster_Set_01:_Fated_Clash",
+    "scraped": false
+  },
+  "VG-DZ-BT02": {
+    "set_name": "Illusionless Strife",
+    "set_url": "https://cardfight.fandom.com/wiki/DZ_Booster_Set_02:_Illusionless_Strife",
+    "scraped": false
+  },
+  "VG-DZ-BT03": {
+    "set_name": "Dimensional Transcendence",
+    "set_url": "https://cardfight.fandom.com/wiki/DZ_Booster_Set_03:_Dimensional_Transcendence",
+    "scraped": false
+  },
+  "VG-DZ-BT04": {
+    "set_name": "Destined Showdown",
+    "set_url": "https://cardfight.fandom.com/wiki/DZ_Booster_Set_04:_Destined_Showdown",
+    "scraped": false
+  },
+  "VG-DZ-BT05": {
+    "set_name": "Omniscient Awakening",
+    "set_url": "https://cardfight.fandom.com/wiki/DZ_Booster_Set_05:_Omniscient_Awakening",
+    "scraped": false
+  },
+  "VGE-DZ-BT06": {
+    "set_name": "Generation Dragenesis",
+    "set_url": "https://cardfight.fandom.com/wiki/DZ_Booster_Set_06:_Generation_Dragenesis",
+    "scraped": false
+  },
+  "VGE-DZ-BT07": {
+    "set_name": "Moon Fangs & Cerulean Blaze",
+    "set_url": "https://cardfight.fandom.com/wiki/DZ_Booster_Set_07:_Moon_Fangs_%26_Cerulean_Blaze",
+    "scraped": false
+  },
+  "VGE-DZ-BT08": {
+    "set_name": "Knights 0f Rebirth",
+    "set_url": "https://cardfight.fandom.com/wiki/DZ_Booster_Set_08:_Knights_0f_Rebirth",
+    "scraped": false
+  },
+  "VGE-DZ-BT09": {
+    "set_name": "Super Brave Detonation",
+    "set_url": "https://cardfight.fandom.com/wiki/DZ_Booster_Set_09:_Super_Brave_Detonation",
+    "scraped": false
+  },
+  "VGE-DZ-BT10": {
+    "set_name": "Dragonsoul Resonance",
+    "set_url": "https://cardfight.fandom.com/wiki/DZ_Booster_Set_10:_Dragonsoul_Resonance",
+    "scraped": false
+  },
+  "VGE-DZ-BT11": {
+    "set_name": "Symphony of Might & Bloom",
+    "set_url": "https://cardfight.fandom.com/wiki/DZ_Booster_Set_11:_Symphony_of_Might_%26_Bloom",
+    "scraped": false
+  },
+  "VGE-DZ-BT12": {
+    "set_name": "Chasm of Lost Souls",
+    "set_url": "https://cardfight.fandom.com/wiki/DZ_Booster_Set_12:_Chasm_of_Lost_Souls",
+    "scraped": false
+  },
+  "VGE-DZ-BT13": {
+    "set_name": "Parallactic Clash",
+    "set_url": "https://cardfight.fandom.com/wiki/DZ_Booster_Set_13:_Parallactic_Clash",
+    "scraped": false
+  },
+  "VGE-DZ-BT14": {
+    "set_name": "Envoys of the Crimson Moon",
+    "set_url": "https://cardfight.fandom.com/wiki/DZ_Booster_Set_14:_Envoys_of_the_Crimson_Moon",
+    "scraped": true
+  },
+  "VG-DZ-SS01": {
+    "set_name": "Festival Booster 2024",
+    "set_url": "https://cardfight.fandom.com/wiki/DZ_Special_Series_01:_Festival_Booster_2024",
+    "scraped": false
+  },
+  "VG-DZ-SS02": {
+    "set_name": "Stride Deckset Harri",
+    "set_url": "https://cardfight.fandom.com/wiki/DZ_Special_Series_02:_Stride_Deckset_Harri",
+    "scraped": false
+  },
+  "VG-DZ-SS03": {
+    "set_name": "Stride Deckset Nightrose",
+    "set_url": "https://cardfight.fandom.com/wiki/DZ_Special_Series_03:_Stride_Deckset_Nightrose",
+    "scraped": false
+  },
+  "VG-DZ-SS04": {
+    "set_name": "Oversized Bebebebe Black Dangerous of Fate CoroCoro Start Deck Pack",
+    "set_url": "https://cardfight.fandom.com/wiki/DZ_Special_Series_04:_CoroCoro_Start_Deck_Pack",
+    "scraped": false
+  },
+  "VG-DZ-SS05": {
+    "set_name": "Fighter's Coin Set -Fated Clash-",
+    "set_url": "https://cardfight.fandom.com/wiki/DZ_Special_Series_05:_Fighter%27s_Coin_Set_-Fated_Clash-",
+    "scraped": false
+  },
+  "VG-DZ-SS06": {
+    "set_name": "Fighter's Coin Set -Destined Showdown-",
+    "set_url": "https://cardfight.fandom.com/wiki/DZ_Special_Series_06:_Fighter%27s_Coin_Set_-Destined_Showdown-",
+    "scraped": false
+  },
+  "VGE-DZ-SS07": {
+    "set_name": "Break Away Start Deck - Battle with \"Power\"! Zero Tendo",
+    "set_url": "https://cardfight.fandom.com/wiki/DZ_Special_Series_07:_Break_Away_Start_Deck_-_Battle_with_%22Power%22!_Zero_Tendo",
+    "scraped": false
+  },
+  "VGE-DZ-SS08": {
+    "set_name": "Break Away Start Deck - Battle with \"Skill\"! Shiki Otei",
+    "set_url": "https://cardfight.fandom.com/wiki/DZ_Special_Series_08:_Break_Away_Start_Deck_-_Battle_with_%22Skill%22!_Shiki_Otei",
+    "scraped": false
+  },
+  "VGE-DZ-SS09": {
+    "set_name": "Master Deckset -Urara Haneyama-",
+    "set_url": "https://cardfight.fandom.com/wiki/DZ_Special_Series_09:_Master_Deckset_-Urara_Haneyama-",
+    "scraped": false
+  },
+  "VGE-DZ-SS10": {
+    "set_name": "Master Deckset -Michiru Hazama-",
+    "set_url": "https://cardfight.fandom.com/wiki/DZ_Special_Series_10:_Master_Deckset_-Michiru_Hazama-",
+    "scraped": false
+  },
+  "VGE-DZ-SS11": {
+    "set_name": "Festival Booster 2025",
+    "set_url": "https://cardfight.fandom.com/wiki/DZ_Special_Series_08:_Festival_Booster_2025",
+    "scraped": false
+  },
+  "VGE-DZ-SS04": {
+    "set_name": "Stardust Blade",
+    "set_url": "https://cardfight.fandom.com/wiki/DZ_Special_Series_04:_Stardust_Blade",
+    "scraped": false
+  },
+  "VGE-DZ-SS12": {
+    "set_name": "Master Deckset -Hikari Myodo-",
+    "set_url": "https://cardfight.fandom.com/wiki/DZ_Special_Series_12:_Master_Deckset_-Hikari_Myodo-",
+    "scraped": false
+  },
+  "VGE-DZ-SS13": {
+    "set_name": "Master Deckset -Erika Myojo-",
+    "set_url": "https://cardfight.fandom.com/wiki/DZ_Special_Series_13:_Master_Deckset_-Erika_Myojo-",
+    "scraped": false
+  },
+  "VGE-DZ-SS14": {
+    "set_name": "Break Away Start Deck - Blaster Blade",
+    "set_url": "https://cardfight.fandom.com/wiki/DZ_Special_Series_14:_Break_Away_Start_Deck_-_Blaster_Blade",
+    "scraped": false
+  },
+  "VGE-DZ-SS15": {
+    "set_name": "Break Away Start Deck - Dragonic Overlord",
+    "set_url": "https://cardfight.fandom.com/wiki/DZ_Special_Series_15:_Break_Away_Start_Deck_-_Dragonic_Overlord",
+    "scraped": false
+  },
+  "VGE-DZ-SS16": {
+    "set_name": "The Legendary Vanguards",
+    "set_url": "https://cardfight.fandom.com/wiki/DZ_Special_Series_16:_The_Legendary_Vanguards",
+    "scraped": true
+  }
+}
