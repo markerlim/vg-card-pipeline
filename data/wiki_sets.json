@@ -142,7 +142,7 @@
   "VGE-DZ-SS14": {
     "set_name": "Break Away Start Deck - Blaster Blade",
     "set_url": "https://cardfight.fandom.com/wiki/DZ_Special_Series_14:_Break_Away_Start_Deck_-_Blaster_Blade",
-    "scraped": false
+    "scraped": true
   },
   "VGE-DZ-SS15": {
     "set_name": "Break Away Start Deck - Dragonic Overlord",
