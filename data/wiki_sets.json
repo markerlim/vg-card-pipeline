@@ -153,5 +153,10 @@
     "set_name": "The Legendary Vanguards",
     "set_url": "https://cardfight.fandom.com/wiki/DZ_Special_Series_16:_The_Legendary_Vanguards",
     "scraped": true
+  },
+  "VGE-DZ-BT15": {
+    "set_name": "Strike of Illusionary Shadows",
+    "set_url": "https://cardfight.fandom.com/wiki/DZ_Booster_Set_15:_Strike_of_Illusionary_Shadows",
+    "scraped": true
   }
 }
