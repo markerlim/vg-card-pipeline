@@ -1,1 +1,335 @@
 set_code,cardno,name,rarity,price_yen,original_price_yen,in_stock
+dzbt14,DZ-BT14/SEC01,ユースベルク“龍吼燎騎・幻影”(箔押し),SEC,49800,,true
+dzbt14,DZ-BT14/SEC02,無双の幻真獣 ザルヴァ・ドラグニア(箔押し),SEC,49800,,true
+dzbt14,DZ-BT14/SEC03,魔王竜 ガブエリウス “幻影”(箔押し),SEC,19800,,true
+dzbt14,DZ-BT14/SEC04,零の幻真獣 グリヴァルディ(箔押し),SEC,39800,,true
+dzbt14,DZ-BT14/SEC05,幻真獣機神 “月天巨星”アングボルド(箔押し),SEC,17800,,true
+dzbt14,DZ-BT14/SEC06,裁秤大隊指揮官 アルグリーヴラ “幻影”(箔押し),SEC,24800,,true
+dzbt14,DZ-BT14/SEC07,Bel-Fiore マイア(箔押し),SEC,49800,,false
+dzbt14,DZ-BT14/SEC08,泡沫の大魔法師 ゼーリス “幻影”(箔押し),SEC,49800,,false
+dzbt14,DZ-BT14/SEC09,X-CeeDaNCe インバルディオ “幻影”(箔押し),SEC,29800,,false
+dzbt14,DZ-BT14/DSR01,泡沫の大魔法師 ゼーリス “幻影”(箔押し),DSR,39800,,false
+dzbt14,DZ-BT14/FFR01,ユースベルク“龍吼燎騎・幻影”(箔押し),FFR,5980,,true
+dzbt14,DZ-BT14/FFR02,ユースベルク“滅龍燎騎・赫絶”(箔押し),FFR,5980,,true
+dzbt14,DZ-BT14/FFR03,無双の幻真獣 ザルヴァ・ドラグニア(箔押し),FFR,4980,,true
+dzbt14,DZ-BT14/FFR04,ドラグリッター ウアターハ(箔押し),FFR,1980,,true
+dzbt14,DZ-BT14/FFR05,魔王竜 ガブエリウス “幻影”(箔押し),FFR,2980,,true
+dzbt14,DZ-BT14/FFR06,スチームメイデン スパイラルキューティ(箔押し),FFR,5980,,true
+dzbt14,DZ-BT14/FFR07,零の幻真獣 グリヴァルディ(箔押し),FFR,3980,,true
+dzbt14,DZ-BT14/FFR08,リヴァレントダガー・ドラゴン(箔押し),FFR,1480,,true
+dzbt14,DZ-BT14/FFR09,幻真獣機神 “月天巨星”アングボルド(箔押し),FFR,2480,,true
+dzbt14,DZ-BT14/FFR10,裁秤大隊指揮官 アルグリーヴラ “幻影”(箔押し),FFR,2480,,true
+dzbt14,DZ-BT14/FFR11,スポラディークセロ・ドラゴン(箔押し),FFR,4980,,false
+dzbt14,DZ-BT14/FFR12,裁秤大隊 フェルベシウス・ドラゴン(箔押し),FFR,1980,,true
+dzbt14,DZ-BT14/FFR13,Bel-Fiore マイア(箔押し),FFR,9980,,true
+dzbt14,DZ-BT14/FFR14,鴻恩の騎士 オルカデス(箔押し),FFR,6980,,true
+dzbt14,DZ-BT14/FFR15,Bel-Fiore スエラ(箔押し),FFR,9980,,false
+dzbt14,DZ-BT14/FFR16,泡沫の大魔法師 ゼーリス “幻影”(箔押し),FFR,5980,,true
+dzbt14,DZ-BT14/FFR17,黒天の水将 レィミーナ(箔押し),FFR,12800,,true
+dzbt14,DZ-BT14/FFR18,湖心の学匠 フォンタイン(箔押し),FFR,9980,,false
+dzbt14,DZ-BT14/FFR19,X-CeeDaNCe インバルディオ “幻影”(箔押し),FFR,3980,,true
+dzbt14,DZ-BT14/FFR20,目と目が合ったその日から エマンティーヌ(箔押し),FFR,3980,,true
+dzbt14,DZ-BT14/FFR21,X-CeeDaNCe プレシー・フォルワット(箔押し),FFR,2980,,true
+dzbt14,DZ-BT14/SR01,ユースベルク“龍吼燎騎・幻影”(箔押し),SR,1280,,true
+dzbt14,DZ-BT14/SR02,ユースベルク“滅龍燎騎・赫絶”(箔押し),SR,980,1280,true
+dzbt14,DZ-BT14/SR03,無双の幻真獣 ザルヴァ・ドラグニア(箔押し),SR,1280,1480,true
+dzbt14,DZ-BT14/SR04,ドラグリッター ウアターハ(箔押し),SR,780,,true
+dzbt14,DZ-BT14/SR05,荒牙之衆 マリエルド(箔押し),SR,120,,true
+dzbt14,DZ-BT14/SR06,オブリテレイト・ドラゴン(箔押し),SR,220,,true
+dzbt14,DZ-BT14/SR07,フォーロンホープ・ドラゴン(箔押し),SR,320,,true
+dzbt14,DZ-BT14/SR08,アウトバースト・ドラゴン(箔押し),SR,120,,true
+dzbt14,DZ-BT14/SR09,魔王竜 ガブエリウス “幻影”(箔押し),SR,320,500,true
+dzbt14,DZ-BT14/SR10,スチームメイデン スパイラルキューティ(箔押し),SR,2480,,false
+dzbt14,DZ-BT14/SR11,零の幻真獣 グリヴァルディ(箔押し),SR,1980,2480,true
+dzbt14,DZ-BT14/SR12,リヴァレントダガー・ドラゴン(箔押し),SR,320,420,true
+dzbt14,DZ-BT14/SR13,フルイド・サフォケイター(箔押し),SR,120,,true
+dzbt14,DZ-BT14/SR14,ダイアフルドール こんちぇった(箔押し),SR,420,,true
+dzbt14,DZ-BT14/SR15,パイアスブレス・ドラゴン(箔押し),SR,120,220,true
+dzbt14,DZ-BT14/SR16,モンメガンティーク・キマイラ(箔押し),SR,120,,true
+dzbt14,DZ-BT14/SR17,幻真獣機神 “月天巨星”アングボルド(箔押し),SR,580,,true
+dzbt14,DZ-BT14/SR18,裁秤大隊指揮官 アルグリーヴラ “幻影”(箔押し),SR,580,,true
+dzbt14,DZ-BT14/SR20,裁秤大隊 フェルベシウス・ドラゴン(箔押し),SR,500,,true
+dzbt14,DZ-BT14/SR21,エーベンフォルツ・ロートバイザー(箔押し),SR,120,220,true
+dzbt14,DZ-BT14/SR22,創成魔獣 囂々喚き(箔押し),SR,220,,false
+dzbt14,DZ-BT14/SR23,リグレイン・リサーチャー 深奥暴き(箔押し),SR,120,,false
+dzbt14,DZ-BT14/SR24,裁秤僚機 ウェイバリス(箔押し),SR,180,320,true
+dzbt14,DZ-BT14/SR25,Bel-Fiore マイア(箔押し),SR,1980,,true
+dzbt14,DZ-BT14/SR26,鴻恩の騎士 オルカデス(箔押し),SR,1280,,true
+dzbt14,DZ-BT14/SR27,Bel-Fiore スエラ(箔押し),SR,1280,,false
+dzbt14,DZ-BT14/SR28,Bel-Fiore ミーク(箔押し),SR,500,,true
+dzbt14,DZ-BT14/SR29,イネクスピアブル・ドラゴン(箔押し),SR,180,220,true
+dzbt14,DZ-BT14/SR30,菱星厳選の女魔術師(箔押し),SR,120,,false
+dzbt14,DZ-BT14/SR31,淑徳の騎士 アンドリヴェート(箔押し),SR,180,320,true
+dzbt14,DZ-BT14/SR32,泡沫の大魔法師 ゼーリス “幻影”(箔押し),SR,1480,,true
+dzbt14,DZ-BT14/SR33,黒天の水将 レィミーナ(箔押し),SR,2480,,false
+dzbt14,DZ-BT14/SR34,湖心の学匠 フォンタイン(箔押し),SR,1480,,true
+dzbt14,DZ-BT14/SR35,ヴェレーノ・ソルダート ベスピーノ(箔押し),SR,180,220,true
+dzbt14,DZ-BT14/SR36,親和の狩人 シルビオーゼ(箔押し),SR,220,,true
+dzbt14,DZ-BT14/SR37,水郷の学匠 リトゥエーラ(箔押し),SR,220,,true
+dzbt14,DZ-BT14/SR38,楽園を訪れし者 フィルデア(箔押し),SR,220,,true
+dzbt14,DZ-BT14/SR39,X-CeeDaNCe インバルディオ “幻影”(箔押し),SR,980,,true
+dzbt14,DZ-BT14/SR40,目と目が合ったその日から エマンティーヌ(箔押し),SR,500,580,true
+dzbt14,DZ-BT14/SR41,X-CeeDaNCe プレシー・フォルワット(箔押し),SR,580,,true
+dzbt14,DZ-BT14/SR42,X-CeeDaNCe ラピ・グロッサ(箔押し),SR,220,,true
+dzbt14,DZ-BT14/SR43,EuphoricReverb ソフィア(箔押し),SR,220,,true
+dzbt14,DZ-BT14/SR44,シュレッド・プレイヤー ティモニエ(箔押し),SR,180,220,true
+dzbt14,DZ-BT14/SR45,LettiaMateS アンシゼーラ(箔押し),SR,220,,false
+dzbt14,DZ-BT14/001,ユースベルク“龍吼燎騎・幻影”,RRR,420,,true
+dzbt14,DZ-BT14/002,ユースベルク“滅龍燎騎・赫絶”,RRR,420,,true
+dzbt14,DZ-BT14/003,無双の幻真獣 ザルヴァ・ドラグニア,RRR,500,,true
+dzbt14,DZ-BT14/004,ドラグリッター ウアターハ,RRR,420,,true
+dzbt14,DZ-BT14/005,魔王竜 ガブエリウス “幻影”,RRR,220,,true
+dzbt14,DZ-BT14/006,スチームメイデン スパイラルキューティ,RRR,2480,,true
+dzbt14,DZ-BT14/007,零の幻真獣 グリヴァルディ,RRR,780,,true
+dzbt14,DZ-BT14/008,リヴァレントダガー・ドラゴン,RRR,220,,true
+dzbt14,DZ-BT14/009,幻真獣機神 “月天巨星”アングボルド,RRR,320,,true
+dzbt14,DZ-BT14/010,裁秤大隊指揮官 アルグリーヴラ “幻影”,RRR,320,,true
+dzbt14,DZ-BT14/011,スポラディークセロ・ドラゴン,RRR,1480,,false
+dzbt14,DZ-BT14/012,裁秤大隊 フェルベシウス・ドラゴン,RRR,320,,true
+dzbt14,DZ-BT14/013,Bel-Fiore マイア,RRR,980,,true
+dzbt14,DZ-BT14/014,鴻恩の騎士 オルカデス,RRR,580,,true
+dzbt14,DZ-BT14/015,Bel-Fiore スエラ,RRR,780,,true
+dzbt14,DZ-BT14/016,泡沫の大魔法師 ゼーリス “幻影”,RRR,980,,true
+dzbt14,DZ-BT14/017,黒天の水将 レィミーナ,RRR,2480,,true
+dzbt14,DZ-BT14/018,湖心の学匠 フォンタイン,RRR,1280,,true
+dzbt14,DZ-BT14/019,X-CeeDaNCe インバルディオ “幻影”,RRR,320,,true
+dzbt14,DZ-BT14/020,目と目が合ったその日から エマンティーヌ,RRR,220,,true
+dzbt14,DZ-BT14/021,X-CeeDaNCe プレシー・フォルワット,RRR,220,,true
+dzbt14,DZ-BT14/022,荒牙之衆 マリエルド,RR,80,120,true
+dzbt14,DZ-BT14/023,オブリテレイト・ドラゴン,RR,180,220,true
+dzbt14,DZ-BT14/024,フォーロンホープ・ドラゴン,RR,120,220,true
+dzbt14,DZ-BT14/025,アウトバースト・ドラゴン,RR,80,120,true
+dzbt14,DZ-BT14/026,フルイド・サフォケイター,RR,80,120,true
+dzbt14,DZ-BT14/027,ダイアフルドール こんちぇった,RR,220,,true
+dzbt14,DZ-BT14/028,パイアスブレス・ドラゴン,RR,80,120,true
+dzbt14,DZ-BT14/029,モンメガンティーク・キマイラ,RR,120,,true
+dzbt14,DZ-BT14/030,エーベンフォルツ・ロートバイザー,RR,80,120,true
+dzbt14,DZ-BT14/031,創成魔獣 囂々喚き,RR,120,220,true
+dzbt14,DZ-BT14/032,リグレイン・リサーチャー 深奥暴き,RR,120,,true
+dzbt14,DZ-BT14/033,裁秤僚機 ウェイバリス,RR,120,,true
+dzbt14,DZ-BT14/034,Bel-Fiore ミーク,RR,320,,true
+dzbt14,DZ-BT14/035,イネクスピアブル・ドラゴン,RR,120,220,true
+dzbt14,DZ-BT14/036,菱星厳選の女魔術師,RR,80,120,true
+dzbt14,DZ-BT14/037,淑徳の騎士 アンドリヴェート,RR,80,120,true
+dzbt14,DZ-BT14/038,ヴェレーノ・ソルダート ベスピーノ,RR,120,,true
+dzbt14,DZ-BT14/039,親和の狩人 シルビオーゼ,RR,180,220,true
+dzbt14,DZ-BT14/040,水郷の学匠 リトゥエーラ,RR,220,,true
+dzbt14,DZ-BT14/041,楽園を訪れし者 フィルデア,RR,120,,true
+dzbt14,DZ-BT14/042,X-CeeDaNCe ラピ・グロッサ,RR,220,,true
+dzbt14,DZ-BT14/043,EuphoricReverb ソフィア,RR,120,,true
+dzbt14,DZ-BT14/044,シュレッド・プレイヤー ティモニエ,RR,120,,true
+dzbt14,DZ-BT14/045,LettiaMateS アンシゼーラ,RR,220,,true
+dzbt14,DZ-BT14/046,赫月光,RR,2480,,true
+dzbt14,DZ-BT14/047,コンドリュール・ドラゴン,R,80,,true
+dzbt14,DZ-BT14/048,荒牙之衆 ウヘル,R,80,,true
+dzbt14,DZ-BT14/049,バニシングクロー・ドラゴン,R,80,,true
+dzbt14,DZ-BT14/050,パーチングアクス・ドラゴン,R,80,,true
+dzbt14,DZ-BT14/051,フィーブライル・ドラゴン,R,80,,true
+dzbt14,DZ-BT14/052,ダイアフルドール じりおーら,R,80,,true
+dzbt14,DZ-BT14/053,忌眼の狂骨 ゾルネイロン,R,80,,true
+dzbt14,DZ-BT14/054,スチームファイター ダドゥーシャ,R,80,,true
+dzbt14,DZ-BT14/055,フィーレ・ブランデ,R,80,,true
+dzbt14,DZ-BT14/056,ブリッツデザイナー ラーツェント,R,80,,true
+dzbt14,DZ-BT14/057,裁秤僚機 トリスディア,R,80,,true
+dzbt14,DZ-BT14/058,裁秤僚機 ローヴロイ,R,80,,true
+dzbt14,DZ-BT14/059,Bel-Fiore ピネッセ,R,80,,true
+dzbt14,DZ-BT14/060,グリスン・ウパシチリィ,R,80,,true
+dzbt14,DZ-BT14/061,パタファクション・エンジェル,R,80,,true
+dzbt14,DZ-BT14/062,Bel-Fiore アプレナ,R,80,,true
+dzbt14,DZ-BT14/063,樹角獣 スクレル,R,80,,true
+dzbt14,DZ-BT14/064,照験の学徒 シーグナ,R,80,,true
+dzbt14,DZ-BT14/065,ニンニン・ジンギー,R,80,,true
+dzbt14,DZ-BT14/066,泡沫の極大魔法 グリド・ラディアール,R,80,,true
+dzbt14,DZ-BT14/067,X-CeeDaNCe ニュイ・エーラス,R,80,,true
+dzbt14,DZ-BT14/068,X-CeeDaNCe レダ・ティスプル,R,80,,true
+dzbt14,DZ-BT14/069,テンダープッシュ アピュイル,R,80,,true
+dzbt14,DZ-BT14/070,LettiaMateS マルフェル,R,80,,true
+dzbt14,DZ-BT14/071,惑星を覆うは赫き病み,R,220,,true
+dzbt14,DZ-BT14/072,エンフォールドベロウ・ドラゴン,C,50,,true
+dzbt14,DZ-BT14/073,ヴァンダリズム・ドラゴン,C,50,,true
+dzbt14,DZ-BT14/074,赫怒のドラグスレイヤー ユース,C,50,,true
+dzbt14,DZ-BT14/075,トラサイズ・ドラゴン,C,50,,true
+dzbt14,DZ-BT14/076,噴壊竜 スピノオディナス,C,50,,true
+dzbt14,DZ-BT14/077,烈鱗の炎熱刃 ファービッド,C,50,,true
+dzbt14,DZ-BT14/078,忍妖 カワイタチ,C,50,,true
+dzbt14,DZ-BT14/079,滅龍の意志 ユース,C,50,,true
+dzbt14,DZ-BT14/080,寂寞の孤影 ユース,C,50,,true
+dzbt14,DZ-BT14/081,サファー・デヴォアラー,C,50,,true
+dzbt14,DZ-BT14/082,アテインメント・ドラゴン,C,50,,true
+dzbt14,DZ-BT14/083,スキュアード・ヴィルトーゾ,C,50,,true
+dzbt14,DZ-BT14/084,ディヴォーション・ドラゴン,C,50,,true
+dzbt14,DZ-BT14/085,アドーリング・ドラゴン,C,50,,true
+dzbt14,DZ-BT14/086,サラウンド・シュベリアス,C,50,,true
+dzbt14,DZ-BT14/087,浮戯の魔道士 レビッテ,C,50,,true
+dzbt14,DZ-BT14/088,フルーシオン・ドラゴン,C,50,,true
+dzbt14,DZ-BT14/089,アスピリング・ドラコキッド,C,50,,true
+dzbt14,DZ-BT14/090,摂動の連鎖 ラディアルペリジー,C,50,,true
+dzbt14,DZ-BT14/091,ブリッツキャリアー トゥラージェン,C,50,,true
+dzbt14,DZ-BT14/092,裁秤大隊 ガトリングカノーネ・ドラゴン,C,50,,true
+dzbt14,DZ-BT14/093,裁秤大隊 ディフュージオン・ドラゴン,C,50,,true
+dzbt14,DZ-BT14/094,パッフィー・エモネーター,C,50,,true
+dzbt14,DZ-BT14/095,モビリティ・フラッガー,C,50,,true
+dzbt14,DZ-BT14/096,裁秤大隊 アウゲンブリック・ドラゴン,C,50,,true
+dzbt14,DZ-BT14/097,裁秤大隊 ラケーテンヴェルフ・ドラゴン,C,50,,true
+dzbt14,DZ-BT14/098,裁秤大隊 ゲヴェーアル・ドラゴン,C,50,,true
+dzbt14,DZ-BT14/099,サティスファイズ・ドラゴン,C,50,,true
+dzbt14,DZ-BT14/100,Bel-Fiore ムゥヴィ,C,50,,true
+dzbt14,DZ-BT14/101,イルオーメンド・ドラゴン,C,50,,true
+dzbt14,DZ-BT14/102,Bel-Fiore シオネ,C,50,,false
+dzbt14,DZ-BT14/103,Bel-Fiore チカ,C,50,,true
+dzbt14,DZ-BT14/104,Bel-Fiore ノーセ,C,50,,true
+dzbt14,DZ-BT14/105,メルシーセラム・エンジェル,C,50,,true
+dzbt14,DZ-BT14/106,もふがおん,C,50,,true
+dzbt14,DZ-BT14/107,Bel-Fiore プロア,C,50,,true
+dzbt14,DZ-BT14/108,砕波竜 ベントスフリッパー・ドラゴン,C,50,,true
+dzbt14,DZ-BT14/109,愉楽の学徒 ラルピィ,C,50,,true
+dzbt14,DZ-BT14/110,稀代の魔法師 ゼーリス,C,50,,true
+dzbt14,DZ-BT14/111,瀬音の学徒 ハルト,C,50,,true
+dzbt14,DZ-BT14/112,見習い魔法師 ゼーリス,C,50,,true
+dzbt14,DZ-BT14/113,未来の魔法師 ゼーリス,C,50,,true
+dzbt14,DZ-BT14/114,回復魔法 エクスルーナス,C,50,,true
+dzbt14,DZ-BT14/115,促進魔法 ヴォクストール,C,50,,true
+dzbt14,DZ-BT14/116,強化魔法 スタルキング,C,50,,true
+dzbt14,DZ-BT14/117,X-CeeDaNCe メリィ・クレィシア,C,50,,true
+dzbt14,DZ-BT14/118,放課後特訓 アビリタ,C,50,,true
+dzbt14,DZ-BT14/119,X-CeeDaNCe ドラス・エヴォリア,C,50,,true
+dzbt14,DZ-BT14/120,複雑な気持ち ウィレリー,C,50,,true
+dzbt14,DZ-BT14/121,びしっとキメちゃう! サリチュア,C,50,,true
+dzbt14,DZ-BT14/122,X-CeeDaNCe イノ・プログレッテ,C,50,,true
+dzbt14,DZ-BT14/123,X-CeeDaNCe トラン・ディーベ,C,50,,true
+dzbt14,DZ-BT14/124,0時に始まるホッとタイム ペルシュテ,C,50,,true
+dzbt14,DZ-BT14/125,X-CeeDaNCe ファルステイター,C,50,,true
+dzbt14,DZ-BT14/FR01,荒牙之衆 マリエルド,FR,80,120,true
+dzbt14,DZ-BT14/FR02,オブリテレイト・ドラゴン,FR,220,,true
+dzbt14,DZ-BT14/FR03,フォーロンホープ・ドラゴン,FR,220,,true
+dzbt14,DZ-BT14/FR04,アウトバースト・ドラゴン,FR,120,220,true
+dzbt14,DZ-BT14/FR05,コンドリュール・ドラゴン,FR,80,120,true
+dzbt14,DZ-BT14/FR06,荒牙之衆 ウヘル,FR,120,,true
+dzbt14,DZ-BT14/FR07,バニシングクロー・ドラゴン,FR,120,,true
+dzbt14,DZ-BT14/FR08,パーチングアクス・ドラゴン,FR,80,120,true
+dzbt14,DZ-BT14/FR09,フルイド・サフォケイター,FR,80,120,true
+dzbt14,DZ-BT14/FR10,ダイアフルドール こんちぇった,FR,420,,true
+dzbt14,DZ-BT14/FR11,パイアスブレス・ドラゴン,FR,220,,true
+dzbt14,DZ-BT14/FR12,モンメガンティーク・キマイラ,FR,120,,true
+dzbt14,DZ-BT14/FR13,フィーブライル・ドラゴン,FR,80,120,true
+dzbt14,DZ-BT14/FR14,ダイアフルドール じりおーら,FR,420,,false
+dzbt14,DZ-BT14/FR15,忌眼の狂骨 ゾルネイロン,FR,120,,true
+dzbt14,DZ-BT14/FR16,スチームファイター ダドゥーシャ,FR,80,120,true
+dzbt14,DZ-BT14/FR17,エーベンフォルツ・ロートバイザー,FR,120,,true
+dzbt14,DZ-BT14/FR18,創成魔獣 囂々喚き,FR,180,320,true
+dzbt14,DZ-BT14/FR19,リグレイン・リサーチャー 深奥暴き,FR,120,,true
+dzbt14,DZ-BT14/FR20,裁秤僚機 ウェイバリス,FR,320,,false
+dzbt14,DZ-BT14/FR21,フィーレ・ブランデ,FR,80,120,true
+dzbt14,DZ-BT14/FR22,ブリッツデザイナー ラーツェント,FR,120,,true
+dzbt14,DZ-BT14/FR23,裁秤僚機 トリスディア,FR,320,,true
+dzbt14,DZ-BT14/FR24,裁秤僚機 ローヴロイ,FR,320,,true
+dzbt14,DZ-BT14/FR25,Bel-Fiore ミーク,FR,320,,true
+dzbt14,DZ-BT14/FR26,イネクスピアブル・ドラゴン,FR,180,320,true
+dzbt14,DZ-BT14/FR27,菱星厳選の女魔術師,FR,80,120,true
+dzbt14,DZ-BT14/FR28,淑徳の騎士 アンドリヴェート,FR,120,220,true
+dzbt14,DZ-BT14/FR29,Bel-Fiore ピネッセ,FR,420,,true
+dzbt14,DZ-BT14/FR30,グリスン・ウパシチリィ,FR,120,,true
+dzbt14,DZ-BT14/FR31,パタファクション・エンジェル,FR,80,120,true
+dzbt14,DZ-BT14/FR32,Bel-Fiore アプレナ,FR,320,420,true
+dzbt14,DZ-BT14/FR33,ヴェレーノ・ソルダート ベスピーノ,FR,220,,true
+dzbt14,DZ-BT14/FR34,親和の狩人 シルビオーゼ,FR,220,320,true
+dzbt14,DZ-BT14/FR35,水郷の学匠 リトゥエーラ,FR,180,320,true
+dzbt14,DZ-BT14/FR36,楽園を訪れし者 フィルデア,FR,320,,false
+dzbt14,DZ-BT14/FR37,樹角獣 スクレル,FR,80,120,true
+dzbt14,DZ-BT14/FR38,照験の学徒 シーグナ,FR,1280,,false
+dzbt14,DZ-BT14/FR39,ニンニン・ジンギー,FR,80,120,true
+dzbt14,DZ-BT14/FR40,泡沫の極大魔法 グリド・ラディアール,FR,1980,,true
+dzbt14,DZ-BT14/FR41,X-CeeDaNCe ラピ・グロッサ,FR,220,,true
+dzbt14,DZ-BT14/FR42,EuphoricReverb ソフィア,FR,320,,true
+dzbt14,DZ-BT14/FR43,シュレッド・プレイヤー ティモニエ,FR,120,220,true
+dzbt14,DZ-BT14/FR44,LettiaMateS アンシゼーラ,FR,320,,true
+dzbt14,DZ-BT14/FR45,X-CeeDaNCe ニュイ・エーラス,FR,220,,false
+dzbt14,DZ-BT14/FR46,X-CeeDaNCe レダ・ティスプル,FR,220,,false
+dzbt14,DZ-BT14/FR47,テンダープッシュ アピュイル,FR,180,220,true
+dzbt14,DZ-BT14/FR48,LettiaMateS マルフェル,FR,180,220,true
+dzbt14,DZ-BT14/EXS01,桐生 一馬(箔押し),EXS,14800,,true
+dzbt14,DZ-BT14/EXS02,錦山 彰(箔押し),EXS,2980,,true
+dzbt14,DZ-BT14/EXS03,伊達 真(箔押し),EXS,980,1280,true
+dzbt14,DZ-BT14/EXS04,真島 吾朗(箔押し),EXS,9980,,true
+dzbt14,DZ-BT14/EXS05,狭山 薫(箔押し),EXS,980,1480,true
+dzbt14,DZ-BT14/EXS06,郷田 龍司(箔押し),EXS,1480,,false
+dzbt14,DZ-BT14/EXS07,峯 義孝(箔押し),EXS,3980,,false
+dzbt14,DZ-BT14/EXS08,堂島 大吾(箔押し),EXS,2980,,true
+dzbt14,DZ-BT14/EX01,桐生 一馬,EXRRR,320,500,true
+dzbt14,DZ-BT14/EX02,錦山 彰,EXRRR,80,120,true
+dzbt14,DZ-BT14/EX03,伊達 真,EXRRR,80,120,true
+dzbt14,DZ-BT14/EX04,真島 吾朗,EXRRR,320,500,true
+dzbt14,DZ-BT14/EX05,狭山 薫,EXRRR,80,120,true
+dzbt14,DZ-BT14/EX06,郷田 龍司,EXRRR,80,120,true
+dzbt14,DZ-BT14/EX07,峯 義孝,EXRRR,220,,true
+dzbt14,DZ-BT14/EX08,堂島 大吾,EXRRR,120,220,true
+dzbt14,DZ-BT14/EX09,風間 新太郎,EXC,50,,true
+dzbt14,DZ-BT14/EX10,麗奈,EXC,50,,true
+dzbt14,DZ-BT14/EX11,亜門 丈,EXC,50,,true
+dzbt14,DZ-BT14/EX12,荒瀬 和人,EXC,50,,true
+dzbt14,DZ-BT14/EX13,一輝,EXC,50,,true
+dzbt14,DZ-BT14/EX14,劉 家龍,EXC,50,,true
+dzbt14,DZ-BT14/EX15,100億の少女　澤村 遥,EXC,50,,true
+dzbt14,DZ-BT14/EX16,柏木 修,EXC,50,,true
+dzbt14,DZ-BT14/EX17,ゲイリー・バスター・ホームズ,EXC,50,,true
+dzbt14,DZ-BT14/EX18,古牧 宗太郎,EXC,50,,true
+dzbt14,DZ-BT14/EX19,サイの花屋,EXC,50,,true
+dzbt14,DZ-BT14/EX20,須藤 純一,EXC,50,,true
+dzbt14,DZ-BT14/EX21,田中 シンジ,EXC,120,,false
+dzbt14,DZ-BT14/EX22,ポケサーファイター,EXC,50,,true
+dzbt14,DZ-BT14/EX23,松重,EXC,50,,true
+dzbt14,DZ-BT14/EX24,ユウヤ,EXC,120,220,true
+dzbt14,DZ-BT14/EX25,澤村 由美,EXC,50,,true
+dzbt14,DZ-BT14/EX26,権田原 進,EXC,50,,true
+dzbt14,DZ-BT14/EX27,郷田 仁,EXC,50,,true
+dzbt14,DZ-BT14/EX28,寺田 行雄,EXC,50,,true
+dzbt14,DZ-BT14/EX29,堂島 弥生,EXC,50,,true
+dzbt14,DZ-BT14/EX30,イ・リュウジョン,EXC,50,,true
+dzbt14,DZ-BT14/EX31,狭山 民代,EXC,50,,true
+dzbt14,DZ-BT14/EX32,アサガオの長女　澤村 遥,EXC,50,,true
+dzbt14,DZ-BT14/EX33,神田 強,EXC,120,,false
+dzbt14,DZ-BT14/EX34,ミヤさん,EXC,50,,true
+dzbt14,DZ-BT14/EX35,アサガオ：大切な場所,EXC,50,,true
+dzbt14,DZ-BT14/EX36,古牧流・無手返し,EXC,220,,true
+dzbt14,DZ-BT14/EX37,堂島の龍　桐生 一馬,EXC,50,,true
+dzbt14,DZ-BT14/EX38,堂島の龍スタイル：無類の強さ,EXC,50,,true
+dzbt14,DZ-BT14/EX39,壊し屋スタイル：豪力の鎮圧,EXC,220,,true
+dzbt14,DZ-BT14/EX40,ラッシュスタイル：華麗なフットワーク,EXC,220,,true
+dzbt14,DZ-BT14/EX41,ボブ宇都宮,EXC,50,,true
+dzbt14,DZ-BT14/EX42,チンピラスタイル：根性反撃,EXC,50,,true
+dzbt14,DZ-BT14/EX43,神室町の食通,EXC,120,,true
+dzbt14,DZ-BT14/RGGR01,桐生 一馬(箔押し),RGGR,1280,,true
+dzbt14,DZ-BT14/RGGR02,錦山 彰(箔押し),RGGR,120,220,true
+dzbt14,DZ-BT14/RGGR03,伊達 真(箔押し),RGGR,120,220,true
+dzbt14,DZ-BT14/RGGR04,真島 吾朗(箔押し),RGGR,580,780,true
+dzbt14,DZ-BT14/RGGR05,狭山 薫(箔押し),RGGR,120,220,true
+dzbt14,DZ-BT14/RGGR06,郷田 龍司(箔押し),RGGR,120,220,true
+dzbt14,DZ-BT14/RGGR07,峯 義孝(箔押し),RGGR,420,,true
+dzbt14,DZ-BT14/RGGR08,堂島 大吾(箔押し),RGGR,320,,true
+dzbt14,DZ-BT14/RGGR09,風間 新太郎(箔押し),RGGR,120,220,true
+dzbt14,DZ-BT14/RGGR10,麗奈(箔押し),RGGR,220,,true
+dzbt14,DZ-BT14/RGGR11,一輝(箔押し),RGGR,220,320,true
+dzbt14,DZ-BT14/RGGR12,劉 家龍(箔押し),RGGR,180,220,true
+dzbt14,DZ-BT14/RGGR13,100億の少女　澤村 遥(箔押し),RGGR,120,220,true
+dzbt14,DZ-BT14/RGGR14,柏木 修(箔押し),RGGR,320,,true
+dzbt14,DZ-BT14/RGGR15,古牧 宗太郎(箔押し),RGGR,120,220,true
+dzbt14,DZ-BT14/RGGR16,サイの花屋(箔押し),RGGR,220,320,true
+dzbt14,DZ-BT14/RGGR17,須藤 純一(箔押し),RGGR,120,220,true
+dzbt14,DZ-BT14/RGGR18,田中 シンジ(箔押し),RGGR,320,,true
+dzbt14,DZ-BT14/RGGR19,松重(箔押し),RGGR,120,220,true
+dzbt14,DZ-BT14/RGGR20,ユウヤ(箔押し),RGGR,1480,1780,true
+dzbt14,DZ-BT14/RGGR21,澤村 由美(箔押し),RGGR,120,220,true
+dzbt14,DZ-BT14/RGGR22,郷田 仁(箔押し),RGGR,120,220,true
+dzbt14,DZ-BT14/RGGR23,寺田 行雄(箔押し),RGGR,120,220,true
+dzbt14,DZ-BT14/RGGR24,堂島 弥生(箔押し),RGGR,120,220,true
+dzbt14,DZ-BT14/RGGR25,狭山 民代(箔押し),RGGR,180,220,true
+dzbt14,DZ-BT14/RGGR26,アサガオの長女　澤村 遥(箔押し),RGGR,180,320,true
+dzbt14,DZ-BT14/RGGR27,神田 強(箔押し),RGGR,320,,true
+dzbt14,DZ-BT14/RGGR28,ミヤさん(箔押し),RGGR,180,220,true
+dzbt14,DZ-BT14/T01,エネルギー|狐芝 ライカ(幻影),T,120,,true
+dzbt14,DZ-BT14/T01,エネルギー|明導 ヒカリ(幻世界),T,120,,false
+dzbt14,DZ-BT14/T01,エネルギー|ガブエリウス(幻影),T,120,,true
+dzbt14,DZ-BT14/T01,エネルギー|八雲 カゲツ/ヴェイズルーグ(スマホ),T,120,,true
+dzbt14,DZ-BT14/T02,SYSTEM CODE:X-ceed,T,50,,true
+dzbt14,DZ-BT14/T03,清逸なる高貴の庭園,T,50,,true
+dzbt14,DZ-BT14/T04,X-ceed NET,T,50,,true

@@ -60,7 +60,7 @@
     "scraped": false
   },
   "VGE-DZ-BT13": {
-    "set_name": "Parallactic Clash",
+    "set_name": "DZ-BT13",
     "set_url": "https://cardfight.fandom.com/wiki/DZ_Booster_Set_13:_Parallactic_Clash",
     "scraped": false
   },
@@ -155,7 +155,7 @@
     "scraped": true
   },
   "VGE-DZ-BT15": {
-    "set_name": "Strike of Illusionary Shadows",
+    "set_name": "DZ-BT15",
     "set_url": "https://cardfight.fandom.com/wiki/DZ_Booster_Set_15:_Strike_of_Illusionary_Shadows",
     "scraped": true
   }

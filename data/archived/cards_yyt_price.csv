@@ -1,0 +1,294 @@
+set_code,cardno,name,rarity,price_yen,original_price_yen,in_stock
+dzbt13,DZ-BT13/SEC01,穿雷竜 アルファルド “幻影”(箔押し),SEC,14800,,true
+dzbt13,DZ-BT13/SEC02,紫炎の幻真獣 カルヴァネイル(箔押し),SEC,24800,,true
+dzbt13,DZ-BT13/SEC03,決意と罪を抱く者 リィエル=アニムス(箔押し),SEC,79800,,false
+dzbt13,DZ-BT13/SEC04,禁忌の窮明者 ゾルガ “幻影”(箔押し),SEC,24800,,true
+dzbt13,DZ-BT13/SEC05,救済の零 ブラグドマイヤー “幻影”(箔押し),SEC,29800,,true
+dzbt13,DZ-BT13/SEC06,悠久の大魔法師 ベルクレア(箔押し),SEC,29800,,true
+dzbt13,DZ-BT13/SEC07,悠久の幻真獣 ニルズベイグ(箔押し),SEC,17800,,true
+dzbt13,DZ-BT13/SEC08,LettiaMateS マグノリア “幻影”(箔押し),SEC,49800,,true
+dzbt13,DZ-BT13/SEC09,万化の幻真獣 ウルティニアス(箔押し),SEC,12800,,true
+dzbt13,DZ-BT13/DSR01,悠久の大魔法師 ベルクレア(箔押し),DSR,19800,,false
+dzbt13,DZ-BT13/FFR01,穿雷竜 アルファルド “幻影”(箔押し),FFR,1480,,true
+dzbt13,DZ-BT13/FFR02,ガンマレイズ・ドラゴン(箔押し),FFR,1280,,true
+dzbt13,DZ-BT13/FFR03,ドラグリッター ハビタブルゾォン(箔押し),FFR,5980,,true
+dzbt13,DZ-BT13/FFR04,崩塵旋孔の時空巨兵(箔押し),FFR,1280,,true
+dzbt13,DZ-BT13/FFR05,紫炎の幻真獣 カルヴァネイル(箔押し),FFR,5980,,true
+dzbt13,DZ-BT13/FFR06,決意と罪を抱く者 リィエル=アニムス(箔押し),FFR,14800,,true
+dzbt13,DZ-BT13/FFR07,刻天想命 ウルト＆ルエル(箔押し),FFR,19800,,true
+dzbt13,DZ-BT13/FFR08,禁忌の窮明者 ゾルガ “幻影”(箔押し),FFR,3980,,true
+dzbt13,DZ-BT13/FFR09,ピアーシング・ラヴァー マーガレット(箔押し),FFR,3980,,true
+dzbt13,DZ-BT13/FFR10,リグレインリサーチャー 骨肉剥し(箔押し),FFR,3980,,true
+dzbt13,DZ-BT13/FFR11,救済の零 ブラグドマイヤー “幻影”(箔押し),FFR,3480,,true
+dzbt13,DZ-BT13/FFR12,壮翼の騎士 カルガフラン(箔押し),FFR,4980,,true
+dzbt13,DZ-BT13/FFR13,善根の騎士 バーダクト(箔押し),FFR,1980,,true
+dzbt13,DZ-BT13/FFR14,悠久の大魔法師 ベルクレア(箔押し),FFR,5980,,true
+dzbt13,DZ-BT13/FFR15,迅風の狩猟者 ガルティーズ(箔押し),FFR,1780,,true
+dzbt13,DZ-BT13/FFR16,悠久の幻真獣 ニルズベイグ(箔押し),FFR,4980,,false
+dzbt13,DZ-BT13/FFR17,LettiaMateS マグノリア “幻影”(箔押し),FFR,9980,,true
+dzbt13,DZ-BT13/FFR18,万化の幻真獣 ウルティニアス(箔押し),FFR,1780,,true
+dzbt13,DZ-BT13/FFR19,凛冽なる願い ヴァルシュブラン(箔押し),FFR,5980,,true
+dzbt13,DZ-BT13/FFR20,LettiaMateS ディルアーシュ(箔押し),FFR,5980,,true
+dzbt13,DZ-BT13/SR01,穿雷竜 アルファルド “幻影”(箔押し),SR,320,,true
+dzbt13,DZ-BT13/SR02,ガンマレイズ・ドラゴン(箔押し),SR,320,,true
+dzbt13,DZ-BT13/SR03,ドラグリッター ハビタブルゾォン(箔押し),SR,1980,,false
+dzbt13,DZ-BT13/SR04,リカーランス・ドラゴン(箔押し),SR,120,220,true
+dzbt13,DZ-BT13/SR05,剛鱗の重雷槌 ヴィクティアス(箔押し),SR,120,,true
+dzbt13,DZ-BT13/SR06,ドラグリッター クトゥーブ(箔押し),SR,120,220,true
+dzbt13,DZ-BT13/SR07,焔の巫女 ブレシア(箔押し),SR,320,,true
+dzbt13,DZ-BT13/SR08,崩塵旋孔の時空巨兵(箔押し),SR,580,,true
+dzbt13,DZ-BT13/SR09,紫炎の幻真獣 カルヴァネイル(箔押し),SR,980,,true
+dzbt13,DZ-BT13/SR10,決意と罪を抱く者 リィエル=アニムス(箔押し),SR,4980,,true
+dzbt13,DZ-BT13/SR11,刻天想命 ウルト＆ルエル(箔押し),SR,3980,,false
+dzbt13,DZ-BT13/SR12,独善の魔道士 ゼルライジェス(箔押し),SR,120,,true
+dzbt13,DZ-BT13/SR13,謎時劫爵 アロケス(箔押し),SR,80,120,true
+dzbt13,DZ-BT13/SR14,スチームパフォーマー ラエラ(箔押し),SR,500,,true
+dzbt13,DZ-BT13/SR15,デザイアデビル シューチャック(箔押し),SR,120,,true
+dzbt13,DZ-BT13/SR16,禁忌の窮明者 ゾルガ “幻影”(箔押し),SR,580,780,true
+dzbt13,DZ-BT13/SR17,ピアーシング・ラヴァー マーガレット(箔押し),SR,1480,,true
+dzbt13,DZ-BT13/SR18,リグレインリサーチャー 骨肉剥し(箔押し),SR,680,,true
+dzbt13,DZ-BT13/SR19,創成魔獣 頭蓋絞り(箔押し),SR,320,500,true
+dzbt13,DZ-BT13/SR20,ヒュート・リスティーク(箔押し),SR,120,,true
+dzbt13,DZ-BT13/SR21,ロジカルシューター エアレィ(箔押し),SR,120,,true
+dzbt13,DZ-BT13/SR22,リグレインリサーチャー ヘンドリーナ(箔押し),SR,320,500,true
+dzbt13,DZ-BT13/SR23,救済の零 ブラグドマイヤー “幻影”(箔押し),SR,780,,true
+dzbt13,DZ-BT13/SR24,壮翼の騎士 カルガフラン(箔押し),SR,780,1280,true
+dzbt13,DZ-BT13/SR25,善根の騎士 バーダクト(箔押し),SR,220,420,true
+dzbt13,DZ-BT13/SR26,エグザベランス・ドラゴン(箔押し),SR,80,120,true
+dzbt13,DZ-BT13/SR27,ギガンテック・ヴェネレーター(箔押し),SR,120,,true
+dzbt13,DZ-BT13/SR28,刻命の騎士 ザムーグ(箔押し),SR,220,320,true
+dzbt13,DZ-BT13/SR29,翼賛の騎士 アドヴォール(箔押し),SR,120,,true
+dzbt13,DZ-BT13/SR30,悠久の大魔法師 ベルクレア(箔押し),SR,1280,,true
+dzbt13,DZ-BT13/SR31,迅風の狩猟者 ガルティーズ(箔押し),SR,320,,true
+dzbt13,DZ-BT13/SR32,悠久の幻真獣 ニルズベイグ(箔押し),SR,780,980,true
+dzbt13,DZ-BT13/SR33,アミアブル・フェアリー(箔押し),SR,420,,true
+dzbt13,DZ-BT13/SR34,サラシックハウザー・ドラゴン(箔押し),SR,80,120,true
+dzbt13,DZ-BT13/SR35,敬信の麗奏 クロワーヌ(箔押し),SR,120,220,true
+dzbt13,DZ-BT13/SR36,梢弓の狩人 トゥリータ(箔押し),SR,420,500,true
+dzbt13,DZ-BT13/SR37,LettiaMateS マグノリア “幻影”(箔押し),SR,1480,,true
+dzbt13,DZ-BT13/SR38,万化の幻真獣 ウルティニアス(箔押し),SR,320,500,true
+dzbt13,DZ-BT13/SR39,凛冽なる願い ヴァルシュブラン(箔押し),SR,1980,,true
+dzbt13,DZ-BT13/SR40,LettiaMateS ディルアーシュ(箔押し),SR,780,,true
+dzbt13,DZ-BT13/SR41,雪灯りの精読 リオティカ(箔押し),SR,120,220,true
+dzbt13,DZ-BT13/SR42,テンプトスマーク セダムーア(箔押し),SR,220,,true
+dzbt13,DZ-BT13/SR43,LettiaMateS アルピン(箔押し),SR,320,,true
+dzbt13,DZ-BT13/SR44,自由気ままに スヴィア(箔押し),SR,180,320,true
+dzbt13,DZ-BT13/SR45,赫月光(箔押し),SR,4980,,true
+dzbt13,DZ-BT13/001,穿雷竜 アルファルド “幻影”,RRR,120,,true
+dzbt13,DZ-BT13/002,ガンマレイズ・ドラゴン,RRR,120,,true
+dzbt13,DZ-BT13/003,ドラグリッター ハビタブルゾォン,RRR,1280,,false
+dzbt13,DZ-BT13/004,崩塵旋孔の時空巨兵,RRR,320,,true
+dzbt13,DZ-BT13/005,紫炎の幻真獣 カルヴァネイル,RRR,220,,true
+dzbt13,DZ-BT13/006,決意と罪を抱く者 リィエル=アニムス,RRR,2480,,true
+dzbt13,DZ-BT13/007,刻天想命 ウルト＆ルエル,RRR,3480,,true
+dzbt13,DZ-BT13/008,禁忌の窮明者 ゾルガ “幻影”,RRR,220,,true
+dzbt13,DZ-BT13/009,ピアーシング・ラヴァー マーガレット,RRR,780,,true
+dzbt13,DZ-BT13/010,リグレインリサーチャー 骨肉剥し,RRR,220,,true
+dzbt13,DZ-BT13/011,救済の零 ブラグドマイヤー “幻影”,RRR,220,,true
+dzbt13,DZ-BT13/012,壮翼の騎士 カルガフラン,RRR,580,,true
+dzbt13,DZ-BT13/013,善根の騎士 バーダクト,RRR,220,,true
+dzbt13,DZ-BT13/014,悠久の大魔法師 ベルクレア,RRR,420,,true
+dzbt13,DZ-BT13/015,迅風の狩猟者 ガルティーズ,RRR,220,,true
+dzbt13,DZ-BT13/016,悠久の幻真獣 ニルズベイグ,RRR,320,,true
+dzbt13,DZ-BT13/017,LettiaMateS マグノリア “幻影”,RRR,420,,true
+dzbt13,DZ-BT13/018,万化の幻真獣 ウルティニアス,RRR,220,,true
+dzbt13,DZ-BT13/019,凛冽なる願い ヴァルシュブラン,RRR,1280,,true
+dzbt13,DZ-BT13/020,LettiaMateS ディルアーシュ,RRR,420,,true
+dzbt13,DZ-BT13/021,再起の竜神王 ドラグヴェーダ,ORR,120,220,true
+dzbt13,DZ-BT13/022,怨恨の冥竜神 ゴルマギエルド,ORR,80,120,true
+dzbt13,DZ-BT13/023,無窮の星竜帝 エルドブレアス,ORR,220,,false
+dzbt13,DZ-BT13/024,栄典の光竜神 アマルティノア,ORR,80,120,true
+dzbt13,DZ-BT13/025,天恵の源竜王 ブレスファボール,ORR,220,,true
+dzbt13,DZ-BT13/026,ファンタスティックフィニャーレ キャトリーナ,ORR,80,120,true
+dzbt13,DZ-BT13/027,光天の精霊王 メルゼンブリア,ORR,220,,true
+dzbt13,DZ-BT13/028,焼尽の精霊王 ヴァルナート,ORR,1780,,false
+dzbt13,DZ-BT13/029,水界の精霊王 イドスファロ,ORR,1480,,false
+dzbt13,DZ-BT13/030,夜天の精霊王 ニクラスゼリア,ORR,420,,true
+dzbt13,DZ-BT13/031,リカーランス・ドラゴン,RR,80,120,true
+dzbt13,DZ-BT13/032,剛鱗の重雷槌 ヴィクティアス,RR,80,120,true
+dzbt13,DZ-BT13/033,ドラグリッター クトゥーブ,RR,80,120,true
+dzbt13,DZ-BT13/034,焔の巫女 ブレシア,RR,220,,true
+dzbt13,DZ-BT13/035,独善の魔道士 ゼルライジェス,RR,120,,true
+dzbt13,DZ-BT13/036,謎時劫爵 アロケス,RR,80,120,true
+dzbt13,DZ-BT13/037,スチームパフォーマー ラエラ,RR,180,220,true
+dzbt13,DZ-BT13/038,デザイアデビル シューチャック,RR,80,120,true
+dzbt13,DZ-BT13/039,創成魔獣 頭蓋絞り,RR,180,220,true
+dzbt13,DZ-BT13/040,ヒュート・リスティーク,RR,80,120,true
+dzbt13,DZ-BT13/041,ロジカルシューター エアレィ,RR,80,120,true
+dzbt13,DZ-BT13/042,リグレインリサーチャー ヘンドリーナ,RR,220,,true
+dzbt13,DZ-BT13/043,エグザベランス・ドラゴン,RR,80,120,true
+dzbt13,DZ-BT13/044,ギガンテック・ヴェネレーター,RR,80,120,true
+dzbt13,DZ-BT13/045,刻命の騎士 ザムーグ,RR,80,120,true
+dzbt13,DZ-BT13/046,翼賛の騎士 アドヴォール,RR,80,120,true
+dzbt13,DZ-BT13/047,アミアブル・フェアリー,RR,220,,true
+dzbt13,DZ-BT13/048,サラシックハウザー・ドラゴン,RR,80,120,true
+dzbt13,DZ-BT13/049,敬信の麗奏 クロワーヌ,RR,120,,true
+dzbt13,DZ-BT13/050,梢弓の狩人 トゥリータ,RR,220,,true
+dzbt13,DZ-BT13/051,雪灯りの精読 リオティカ,RR,80,120,true
+dzbt13,DZ-BT13/052,テンプトスマーク セダムーア,RR,80,120,true
+dzbt13,DZ-BT13/053,LettiaMateS アルピン,RR,220,,true
+dzbt13,DZ-BT13/054,自由気ままに スヴィア,RR,80,120,true
+dzbt13,DZ-BT13/055,赫月光,RR,2480,,true
+dzbt13,DZ-BT13/056,バーニングフレイル・ドラゴン,R+,680,,true
+dzbt13,DZ-BT13/057,フレアヴェイル・ドラゴン,R+,580,,true
+dzbt13,DZ-BT13/058,焔の巫女 パラマ,R+,2480,,true
+dzbt13,DZ-BT13/059,ステムディヴィエイト・ドラゴン,R+,780,,true
+dzbt13,DZ-BT13/060,喚起の操獣師 ライリー,R+,320,,true
+dzbt13,DZ-BT13/061,ディアブロスガールズ ナタリア,R+,1780,,false
+dzbt13,DZ-BT13/062,警邏ロボ デカルコップ,R+,680,,true
+dzbt13,DZ-BT13/063,アメリオレート・コネクター,R+,420,,true
+dzbt13,DZ-BT13/064,柩機の竜 エンバイロ,R+,1480,,true
+dzbt13,DZ-BT13/065,ブレードフェザー・ドラゴン,R+,580,,true
+dzbt13,DZ-BT13/066,加護の魔法 プロロビ,R+,320,,true
+dzbt13,DZ-BT13/067,天音の楽士 アルパック,R+,2480,,true
+dzbt13,DZ-BT13/068,憧憬の乙女 アラナ,R+,780,,false
+dzbt13,DZ-BT13/069,晴朗の乙女 レェナ,R+,320,,true
+dzbt13,DZ-BT13/070,狂乱の令嬢,R+,1980,,false
+dzbt13,DZ-BT13/071,珠玉の一曲 エドウィージュ,R+,500,,true
+dzbt13,DZ-BT13/072,澄み渡る雪夜 ベレトア,R+,420,,true
+dzbt13,DZ-BT13/073,スノウスキップ パルヴィ,R+,1480,,false
+dzbt13,DZ-BT13/074,フォーアゼヒト・ドラゴン,R,80,,true
+dzbt13,DZ-BT13/075,ドラグリッター マーダウ,R,80,,true
+dzbt13,DZ-BT13/076,ドラグリッター エピサイル,R,80,,true
+dzbt13,DZ-BT13/077,ドラグリッター ルワイダ,R,80,,true
+dzbt13,DZ-BT13/078,ドラグリッター アミーナ,R,80,120,true
+dzbt13,DZ-BT13/079,ヴァーディクト・ラングラー,R,80,,true
+dzbt13,DZ-BT13/080,合浦珠還のギアイーグル,R,80,,true
+dzbt13,DZ-BT13/081,ストライフ・タイガルード,R,80,,true
+dzbt13,DZ-BT13/082,プリヘンサイル・ミニスター,R,80,,true
+dzbt13,DZ-BT13/083,スチームメイデン ザクトゥ,R,80,,false
+dzbt13,DZ-BT13/084,アン・ビルターヴィル,R,80,,true
+dzbt13,DZ-BT13/085,極光戦姫 ピコット・カドニム,R,80,,true
+dzbt13,DZ-BT13/086,創成魔獣 影食みの走狗,R,80,,true
+dzbt13,DZ-BT13/087,創成魔獣 咬傷刻み,R,80,,true
+dzbt13,DZ-BT13/088,デュラブル・パシフィスト,R,80,,false
+dzbt13,DZ-BT13/089,協和の騎士 イストレーナ,R,80,,true
+dzbt13,DZ-BT13/090,天資の騎士 アムレン,R,80,,true
+dzbt13,DZ-BT13/091,再思の騎士 リスタール,R,80,,true
+dzbt13,DZ-BT13/092,プランジ・ファルコン,R,80,,true
+dzbt13,DZ-BT13/093,翼擁の騎士 ラピニオ,R,80,,true
+dzbt13,DZ-BT13/094,アートゥフル・マンティスライサー,R,80,,true
+dzbt13,DZ-BT13/095,新芽の養育者 ハースティ,R,80,,true
+dzbt13,DZ-BT13/096,ドンドン・ウォンバット,R,80,,true
+dzbt13,DZ-BT13/097,戦場の歌姫 アポクルーネ,R,120,,false
+dzbt13,DZ-BT13/098,悠久の極大魔法 ゼグレ・リオース,R,80,,true
+dzbt13,DZ-BT13/099,LettiaMateS シミエス,R,80,,true
+dzbt13,DZ-BT13/100,スパーキージャイロボール ジョーネ,R,80,,true
+dzbt13,DZ-BT13/101,LettiaMateS ターヌゥ,R,80,,false
+dzbt13,DZ-BT13/102,遮光は完璧 シュルムン,R,120,,true
+dzbt13,DZ-BT13/103,MateS With U!!,R,80,,true
+dzbt13,DZ-BT13/104,惑星を覆うは赫き病み,R,220,,false
+dzbt13,DZ-BT13/105,ツイストジャイア・ドラゴン,C,50,,true
+dzbt13,DZ-BT13/106,喧騒竜 ディロフォナギング,C,50,,true
+dzbt13,DZ-BT13/107,雷鱗の拳闘士 ブラジェド,C,50,,true
+dzbt13,DZ-BT13/108,セレニティヴェイン・ドラゴン,C,50,,true
+dzbt13,DZ-BT13/109,ドラグリッター シーラス,C,50,,true
+dzbt13,DZ-BT13/110,ドラグリッター レドーム,C,50,,true
+dzbt13,DZ-BT13/111,雷鳴仙人 ゲルビトール,C,50,,true
+dzbt13,DZ-BT13/112,ドラグリッター レキ,C,50,,true
+dzbt13,DZ-BT13/113,ミスチーフ・スティッカー,C,50,,true
+dzbt13,DZ-BT13/114,スチームガンナー カシード,C,50,,true
+dzbt13,DZ-BT13/115,アボミネイト・ラフィアン,C,50,,true
+dzbt13,DZ-BT13/116,エマージュ・アストニッシャー,C,50,,true
+dzbt13,DZ-BT13/117,基軸転換のギアウルフ,C,50,,true
+dzbt13,DZ-BT13/118,境界刺突の時空巨兵,C,50,,true
+dzbt13,DZ-BT13/119,念炎の魔道士 エルクウィル,C,50,,true
+dzbt13,DZ-BT13/120,極光戦姫 ショッキング・カピュシーヌ,C,50,,true
+dzbt13,DZ-BT13/121,ルミナントブリーチ・ドラゴン,C,50,,true
+dzbt13,DZ-BT13/122,リグレインクリーチャー 黒涙の骸竜,C,50,,true
+dzbt13,DZ-BT13/123,リグレインリサーチャー 渦流探り,C,50,,true
+dzbt13,DZ-BT13/124,デフト・ピッカー,C,50,,true
+dzbt13,DZ-BT13/125,リグレインセキュリティ 怨念鎖,C,50,,true
+dzbt13,DZ-BT13/126,リグレインセキュリティ 積怨砕き,C,50,,true
+dzbt13,DZ-BT13/127,リグレインリサーチャー 夢囓り,C,50,,true
+dzbt13,DZ-BT13/128,ギガンテック・リフューザー,C,50,,true
+dzbt13,DZ-BT13/129,欣然の牙 ヴェイカント・ファング,C,50,,true
+dzbt13,DZ-BT13/130,血風の騎士 キルコアド,C,50,,true
+dzbt13,DZ-BT13/131,至心の騎士 レイノルド,C,50,,true
+dzbt13,DZ-BT13/132,娟麗の騎士 ベリセント,C,50,,true
+dzbt13,DZ-BT13/133,聖寵の騎士 シャーリッド,C,50,,true
+dzbt13,DZ-BT13/134,大悦の翼 ホロウ・ラプター,C,50,,true
+dzbt13,DZ-BT13/135,快哉の兆し キャビティ・マリジア,C,50,,true
+dzbt13,DZ-BT13/136,アンブレイカブル・スコルペラー,C,50,,true
+dzbt13,DZ-BT13/137,稀代の魔法師 ベルクレア,C,50,,true
+dzbt13,DZ-BT13/138,造景の剪定士 トレイラン,C,50,,true
+dzbt13,DZ-BT13/139,見習い魔法師 ベルクレア,C,50,,true
+dzbt13,DZ-BT13/140,未来の魔法師 ベルクレア,C,50,,true
+dzbt13,DZ-BT13/141,回復魔法 エクスルーナス,C,50,,true
+dzbt13,DZ-BT13/142,促進魔法 ヴォクストール,C,50,,true
+dzbt13,DZ-BT13/143,強化魔法 スタルキング,C,50,,true
+dzbt13,DZ-BT13/144,憩いの暖炉で ストリア,C,50,,true
+dzbt13,DZ-BT13/145,LettiaMateS ラティス,C,50,,true
+dzbt13,DZ-BT13/146,綺麗に仕上げて アントルテ,C,50,,true
+dzbt13,DZ-BT13/147,涙色の楽譜 サモエッタ,C,50,,true
+dzbt13,DZ-BT13/148,ラスタードメモリー セカリナ,C,50,,true
+dzbt13,DZ-BT13/149,LettiaMateS カリス,C,50,,true
+dzbt13,DZ-BT13/150,LettiaMateS ローテ,C,50,,true
+dzbt13,DZ-BT13/151,ライトエレメンタル パチリ,C,80,,false
+dzbt13,DZ-BT13/152,アースエレメンタル ガララ,C,50,,true
+dzbt13,DZ-BT13/153,ヒートエレメンタル マーグ,C,50,,true
+dzbt13,DZ-BT13/154,ウッドエレメンタル リーフィ,C,50,,false
+dzbt13,DZ-BT13/FR01,リカーランス・ドラゴン,FR,180,220,true
+dzbt13,DZ-BT13/FR02,剛鱗の重雷槌 ヴィクティアス,FR,80,120,true
+dzbt13,DZ-BT13/FR03,ドラグリッター クトゥーブ,FR,120,,true
+dzbt13,DZ-BT13/FR04,焔の巫女 ブレシア,FR,320,,true
+dzbt13,DZ-BT13/FR05,フォーアゼヒト・ドラゴン,FR,80,120,true
+dzbt13,DZ-BT13/FR06,ドラグリッター マーダウ,FR,80,120,true
+dzbt13,DZ-BT13/FR07,ドラグリッター エピサイル,FR,120,,true
+dzbt13,DZ-BT13/FR08,ドラグリッター ルワイダ,FR,80,120,true
+dzbt13,DZ-BT13/FR09,ドラグリッター アミーナ,FR,1280,,true
+dzbt13,DZ-BT13/FR10,独善の魔道士 ゼルライジェス,FR,120,,false
+dzbt13,DZ-BT13/FR11,謎時劫爵 アロケス,FR,120,,true
+dzbt13,DZ-BT13/FR12,スチームパフォーマー ラエラ,FR,320,500,false
+dzbt13,DZ-BT13/FR13,デザイアデビル シューチャック,FR,120,,true
+dzbt13,DZ-BT13/FR14,ヴァーディクト・ラングラー,FR,80,120,true
+dzbt13,DZ-BT13/FR15,合浦珠還のギアイーグル,FR,120,,true
+dzbt13,DZ-BT13/FR16,ストライフ・タイガルード,FR,80,120,true
+dzbt13,DZ-BT13/FR17,プリヘンサイル・ミニスター,FR,120,,true
+dzbt13,DZ-BT13/FR18,スチームメイデン ザクトゥ,FR,980,,true
+dzbt13,DZ-BT13/FR19,創成魔獣 頭蓋絞り,FR,420,,true
+dzbt13,DZ-BT13/FR20,ヒュート・リスティーク,FR,120,,true
+dzbt13,DZ-BT13/FR21,ロジカルシューター エアレィ,FR,120,,true
+dzbt13,DZ-BT13/FR22,リグレインリサーチャー ヘンドリーナ,FR,220,320,true
+dzbt13,DZ-BT13/FR23,アン・ビルターヴィル,FR,80,120,true
+dzbt13,DZ-BT13/FR24,極光戦姫 ピコット・カドニム,FR,120,,true
+dzbt13,DZ-BT13/FR25,創成魔獣 影食みの走狗,FR,320,,false
+dzbt13,DZ-BT13/FR26,創成魔獣 咬傷刻み,FR,320,,true
+dzbt13,DZ-BT13/FR27,デュラブル・パシフィスト,FR,980,,true
+dzbt13,DZ-BT13/FR28,エグザベランス・ドラゴン,FR,120,,true
+dzbt13,DZ-BT13/FR29,ギガンテック・ヴェネレーター,FR,120,,true
+dzbt13,DZ-BT13/FR30,刻命の騎士 ザムーグ,FR,180,320,true
+dzbt13,DZ-BT13/FR31,翼賛の騎士 アドヴォール,FR,180,220,true
+dzbt13,DZ-BT13/FR32,協和の騎士 イストレーナ,FR,220,,true
+dzbt13,DZ-BT13/FR33,天資の騎士 アムレン,FR,80,120,true
+dzbt13,DZ-BT13/FR34,再思の騎士 リスタール,FR,80,120,true
+dzbt13,DZ-BT13/FR35,プランジ・ファルコン,FR,80,120,true
+dzbt13,DZ-BT13/FR36,翼擁の騎士 ラピニオ,FR,680,780,true
+dzbt13,DZ-BT13/FR37,アミアブル・フェアリー,FR,500,,false
+dzbt13,DZ-BT13/FR38,サラシックハウザー・ドラゴン,FR,80,120,true
+dzbt13,DZ-BT13/FR39,敬信の麗奏 クロワーヌ,FR,120,220,true
+dzbt13,DZ-BT13/FR40,梢弓の狩人 トゥリータ,FR,500,,true
+dzbt13,DZ-BT13/FR41,アートゥフル・マンティスライサー,FR,80,120,true
+dzbt13,DZ-BT13/FR42,新芽の養育者 ハースティ,FR,120,,true
+dzbt13,DZ-BT13/FR43,ドンドン・ウォンバット,FR,120,,true
+dzbt13,DZ-BT13/FR44,戦場の歌姫 アポクルーネ,FR,1280,,false
+dzbt13,DZ-BT13/FR45,悠久の極大魔法 ゼグレ・リオース,FR,1980,,true
+dzbt13,DZ-BT13/FR46,雪灯りの精読 リオティカ,FR,120,220,true
+dzbt13,DZ-BT13/FR47,テンプトスマーク セダムーア,FR,120,220,true
+dzbt13,DZ-BT13/FR48,LettiaMateS アルピン,FR,220,420,true
+dzbt13,DZ-BT13/FR49,自由気ままに スヴィア,FR,220,,true
+dzbt13,DZ-BT13/FR50,LettiaMateS シミエス,FR,220,,false
+dzbt13,DZ-BT13/FR51,スパーキージャイロボール ジョーネ,FR,120,,true
+dzbt13,DZ-BT13/FR52,LettiaMateS ターヌゥ,FR,580,,true
+dzbt13,DZ-BT13/FR53,遮光は完璧 シュルムン,FR,1480,,true
+dzbt13,DZ-BT13/FR54,MateS With U!!,FR,1780,,true
+dzbt13,DZ-BT13/FR55,赫月光,FR,4980,,false
+dzbt13,DZ-BT13/FR56,惑星を覆うは赫き病み,FR,780,,true
+dzbt13,DZ-BT13/T01,エネルギー|石川 カナミ,T,120,,true
+dzbt13,DZ-BT13/T01,エネルギー|伊勢木 マサノリ(幻影),T,120,,true
+dzbt13,DZ-BT13/T01,エネルギー|伏見 リュウガ,T,120,,true
+dzbt13,DZ-BT13/T01,エネルギー|石川 クルミ,T,120,,true
+dzbt13,DZ-BT13/T01,エネルギー|大倉 メグミ(幻影),T,120,,true
+dzbt13,DZ-BT13/T01,エネルギー|呼続 スオウ(幻影),T,120,,true
+dzbt13,DZ-BT13/T02,魔獣合成体 ユーバーメンシュ,T,50,,true
+dzbt13,DZ-BT13/T03,リグレイン生命創成研究所,T,50,,true

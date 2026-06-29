@@ -1,8 +1,12 @@
 import csv
 import re
 import time
-import requests
 from bs4 import BeautifulSoup
+
+# curl_cffi impersonates a real Chrome TLS/JA3 fingerprint, which is required to
+# get past Cloudflare's bot detection on yuyu-tei.jp (plain `requests` gets 403'd,
+# especially from datacenter IPs like GitHub Actions runners).
+from curl_cffi import requests
 
 BASE = "https://yuyu-tei.jp"
 OUTPUT_CSV = "data/cards_yyt_price.csv"
@@ -19,26 +23,24 @@ SET_CODES = [
     "dzss07", "dzss08", "dzss09", "dzss10", "dzss11", "dzss12",
 ]
 
-session = requests.Session()
+# impersonate a recent Chrome build so the TLS fingerprint matches a real browser.
+session = requests.Session(impersonate="chrome")
 session.headers.update({
-    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
     "Accept-Language": "ja,en;q=0.9",
-    "Accept-Encoding": "gzip, deflate, br",
     "Referer": "https://yuyu-tei.jp/",
     "Sec-Fetch-Dest": "document",
     "Sec-Fetch-Mode": "navigate",
     "Sec-Fetch-Site": "same-origin",
     "Sec-Fetch-User": "?1",
     "Upgrade-Insecure-Requests": "1",
-    "Connection": "keep-alive",
     "Cache-Control": "max-age=0",
 })
 
 # Prime session with homepage to get cookies
 try:
     session.get("https://yuyu-tei.jp/", timeout=15)
-except requests.RequestException:
+except requests.RequestsError:
     pass
 
 
@@ -55,7 +57,7 @@ def scrape_set(set_code: str) -> list[dict]:
             resp = session.get(url, timeout=30)
             resp.raise_for_status()
             break
-        except requests.RequestException:
+        except requests.RequestsError:
             if attempt == 2:
                 raise
             time.sleep(2 ** attempt)

@@ -6,9 +6,6 @@ on:
     paths:
       - "boosters.json"
       - "JP_NAME_CORRECTIONS"
-  workflow_dispatch:
-  schedule:
-    - cron: "0 2 * * 5"
 
 permissions:
   contents: write

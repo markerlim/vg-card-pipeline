@@ -90,30 +90,36 @@ def _parse_card_table(table) -> list[dict]:
         if len(cells) < 2:
             continue
 
-        card_no = cells[0].get_text(strip=True)
+        card_nos = [c.strip() for c in cells[0].get_text("\n", strip=True).split("\n") if c.strip()]
         link = cells[1].find("a")
         if link and link.get("href"):
             name = link.get_text(strip=True)
             card_url = BASE + link["href"] if link["href"].startswith("/") else link["href"]
         else:
-            name = cells[1].get_text(strip=True)
-            card_url = ""
+            span = cells[1].find("span", class_="new")
+            if span and span.get("data-uncrawlable-url"):
+                name = span.get_text(strip=True)
+                card_url = BASE + span["data-uncrawlable-url"]
+            else:
+                name = cells[1].get_text(strip=True)
+                card_url = ""
 
         grade = cells[2].get_text(strip=True) if len(cells) > 2 else ""
         nation = cells[3].get_text(strip=True) if len(cells) > 3 else ""
         card_type = cells[4].get_text(strip=True) if len(cells) > 4 else ""
         rarity = cells[5].get_text(strip=True) if len(cells) > 5 else ""
 
-        cards.append({
-            "card_no": card_no,
-            "name": name,
-            "jp_name": "",
-            "card_url": card_url,
-            "grade": grade,
-            "nation": nation,
-            "type": card_type,
-            "rarity": rarity,
-        })
+        for card_no in card_nos:
+            cards.append({
+                "card_no": card_no,
+                "name": name,
+                "jp_name": "",
+                "card_url": card_url,
+                "grade": grade,
+                "nation": nation,
+                "type": card_type,
+                "rarity": rarity,
+            })
 
     return cards
 
@@ -129,12 +135,15 @@ def scrape_card_list(set_url: str) -> list[dict]:
         if table:
             cards.extend(_parse_card_table(table))
 
-    # Edition Exclusives (collab / alternate art cards listed separately)
-    ee_span = soup.find("span", id="Edition_Exclusives")
-    if ee_span:
-        table = ee_span.find_parent("h2").find_next("table")
-        if table:
-            cards.extend(_parse_card_table(table))
+    # Edition Exclusive(s) (collab / alternate art cards listed separately)
+    # Some sets use "Edition_Exclusives" (plural) and others "Edition_Exclusive" (singular)
+    for ee_id in ("Edition_Exclusives", "Edition_Exclusive"):
+        ee_span = soup.find("span", id=ee_id)
+        if ee_span:
+            table = ee_span.find_parent("h2").find_next("table")
+            if table:
+                cards.extend(_parse_card_table(table))
+                break
 
     # PR Card List (promo cards)
     pr_span = soup.find("span", id="PR_Card_List")
